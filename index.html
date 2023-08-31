@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoria</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!--FONTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Monitoria</a>
+              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Cursos</a>
+              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</a>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"></div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"></div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"></div>
+          </div>
+
+    </header>
+    <main>
+        <container class="c1">
+            <h1>Sobre
+                <small style="color: purple;">Monitoria</small>
+            </h1>
+            <h5 class="c1t">
+                A Universidade <b>CEUB</b> está sempre em busca de soluções inovadoras para aprimorar a experiência dos alunos. E é com grande satisfação que anunciamos o lançamento do novo site da monitoria de ciência da computação, que tem como objetivo ajudar os estudantes a aprimorar seus conhecimentos e habilidades. O novo site da monitoria conta com uma plataforma ainda mais completa e interativa, que agora oferece anexos para as instalações da Asa Norte, Taguatingua, além do site principal, facilitando o acesso às informações sobre a instituição. Com esta nova implementação, a CEUB continua se consolidando como uma universidade cada vez mais inovadora, oferecendo aos seus alunos as melhores ferramentas para o seu sucesso acadêmico.
+            </h5>
+            <h3>Horários <small style="color: purple;">Funcionamento</small></h3>
+            <div class="c1horarios">
+                <div class="asanorte">
+                    <h5 class="t-h">Asa Norte</h5>
+                    <h6>
+                        <b>Dias</b>: Segunda a Sexta.<br>
+                        <b>Horário (manhã)</b>: 17h30h às 19h.<br>
+                        <b>Horário (tarde)</b>: 11h30h às 13h.<br>
+                        <b>Local</b>: Laboratório 8302.<br> 
+                    </p>
+                </div>
+                <div class="asanorte">
+                    <h5 class="t-h">Taguatinga</h5><br>
+                    <h6>
+                        <b>Dias</b>: Segunda a Sexta.<br>
+                        <b>Horário (manhã)</b>: 11h às 12h30.<br>
+                        <b>Local</b>: Laboratório 174.<br> 
+                    </p>
+                </div>
+            </div>
+        </container>
+
+        <container class="c2">
+            <h1>Monitores
+                <small style="color: purple;">Asa Norte</small>
+            </h1>
+        </container>
+
+        <container class="c3">
+            <div id="carouselExampleIndicators" class="carousel slide imagens" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 img-slide" src="assets/images/ex1.png" alt="Primeiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="color: rgb(255, 0, 93);">Esse mano é brabão, falar pra tu</h5>
+                            <p style="color: rgb(215, 91, 240);">Novas</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img-slide" src="assets/images/ex1.png" alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="color: rgb(255, 0, 93);">Esse mano é brabão, falar pra tu</h5>
+                            <p style="color: rgb(215, 91, 240);">Novas</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img-slide" src="assets/images/ex1.png" alt="Terceiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="color: rgb(255, 0, 93);">Esse mano é brabão, falar pra tu</h5>
+                            <p style="color: rgb(215, 91, 240);">Novas</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+
+        </container>
+
+
+    </main>
+
+</body>
+
+</html>
